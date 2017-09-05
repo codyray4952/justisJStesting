@@ -1,0 +1,88 @@
+/* main bio sart */
+
+.bioContainer{
+    width:100%;
+    height:500px;
+}
+
+.bioContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.selfieContainer{
+    width:50%;
+    height:500px;
+}
+
+.selfieImg{
+    width:100%;
+    height:500px;
+}
+
+.aboutSection{
+    width:50%;
+    height:500px;
+}
+
+.aboutHeader{
+    text-align:center;
+    margin:8px;
+    font-family: 'Dancing Script', cursive;
+    font-size:32px;
+}
+
+.aboutText{
+    text-align:center;
+    padding:10px;
+}
+
+/* main bio end */
+
+/* interests section begin */
+
+.interestContainer{
+    width:100%;
+    margin:15px 0;
+}
+
+.interestContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.interestColumn{
+    width:25%;
+    height:auto;
+    padding:2.5%;
+    margin-left:2.5%;
+    float:left;
+}
+
+.interestImg{
+    height:250px;
+    width:100%;
+}
+
+.interestHeader{
+    text-align:center;
+    margin:0;
+    font-family: 'Dancing Script', cursive;
+    font-size:32px;
+}
+
+.interestText{
+    text-align:center;
+}
+
+.videoContainer{
+    width:100%;
+}
+
+/* interests section end */
+
+footer{
+    margin-top:0;
+}
