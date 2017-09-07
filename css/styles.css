@@ -8,10 +8,14 @@ body {
 /*main nav start*/
 
 .mainNav{
-    background:#000;
     padding:0;
     margin:0;
-    width:100%;
+    width:32px;
+    height:200px;
+    position:fixed;
+    right:0;
+    overflow:hidden;
+    transition:width .75s, background .5s;
 }
 
 .mainNav:after {
@@ -21,27 +25,30 @@ body {
     clear:both;
 }
 
-.navLogo {
-    height:100%;
-    float:left;
-    margin:9px 0 0 9px;
+.mainNav:hover{
+    background:#000;
+    width:90px;
 }
 
 .navList{
     margin:0;
+    margin-top:3px;
     padding:0;
     list-style:none;
 }
 
 .navItem {
+    text-align:right;
     float:right;
+    white-space:nowrap;
+    clear:right;
 }
 
 .navLink {
-    background:#000;
+    width:90px;
     color:#ffffff;
     text-decoration:none;
-    padding:15px 15px 16px 15px;
+    padding:calc(52px / 8) 1px;
     display:inline-block;
 }
 
@@ -53,12 +60,13 @@ body {
     color:#fff;
 }
 
-.navLinkCurrent {
-    background:#555;
-    color:#ffffff;
-    text-decoration:none;
-    padding:15px 15px 16px 15px;
-    display:inline-block;
+.linkLogo{
+    font-size:30px;
+    margin-right:1px;
+}
+
+.big{
+    font-size:33px;
 }
 
 /*main nav end*/
@@ -104,16 +112,16 @@ body {
 /*hero image start*/
 
 .heroBackground {
-    height:400px;
+    height:200px;
     background:url(../images/hero.png) center center no-repeat;
-    background-size:cover;
+    background-size:cover center center;
 }
 
 .heroHeader {
     text-align:center;
     color:#fff;
     margin:0;
-    padding-top:350px;
+    padding-top:150px;
 }
 
 .textBackground {
