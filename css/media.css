@@ -1,0 +1,40 @@
+.doubleContainer{
+    width:100%;
+}
+
+.doubleContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.doubleColumn{
+    width:45%;
+    height:250px;
+    float:left;
+    margin-top: 8px;
+    margin-left:calc(10% / 3);
+    padding-bottom:8px;
+    border-radius:12px;
+    background:#696969;
+    text-align:center;
+    height:100%;
+}
+
+.doubleColumn:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+doubleHeader{
+    margin:0;
+}
+
+doubleText{
+    margin:0;
+}
+
+.videoContainer{
+    
+}
