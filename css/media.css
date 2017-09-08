@@ -27,12 +27,27 @@
     clear:both;
 }
 
-doubleHeader{
+.doubleHeader{
+}
+
+.doubleText{
     margin:0;
 }
 
-doubleText{
-    margin:0;
+.audioBox{
+    background:#fafafa;
+    width:70%;
+    margin:0 auto;
+}
+
+.audioBox:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.audioHeader{
+    text-align:center;
 }
 
 .videoContainer{
