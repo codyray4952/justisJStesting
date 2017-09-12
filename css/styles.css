@@ -252,6 +252,64 @@ profileSocialContainer:after {
     color:#fff;
 }
 
+footer{
+    background:#969696;
+    width:100%;
+    height:150px;
+    padding:15px 0;
+    margin-top:15px;
+    border-top:1px solid #707070;
+}
+
+.footerSection{
+    width: calc(100%/3);
+    text-align:center;
+    float:left;
+    padding-top:20px;
+}
+
+.iconContainer{
+    height:150px;
+    width:150px;
+    margin:0 auto;
+}
+
+.iconContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.iconRow{
+    height:50px;
+    width:100%;
+}
+
+.iconBox{
+    height:50px;
+    width:50px;
+    text-align:center;
+    margin:0 auto;
+}
+
+.iconLink {
+    color:#000;
+    font-size:40px;
+    text-decoration:none;
+}
+
+.iconLink:hover {
+    color:#00beff;
+}
+
+.footerLogo{
+    height:50px;
+}
+
+.noPadding{
+    padding-top:0;
+}
+
 .left{
     float:left;
 }
