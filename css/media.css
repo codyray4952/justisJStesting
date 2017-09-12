@@ -15,8 +15,9 @@
     margin-top: 8px;
     margin-left:calc(10% / 3);
     padding-bottom:8px;
+    border:1px solid #696969;
     border-radius:12px;
-    background:#696969;
+    background:#969696;
     text-align:center;
     height:100%;
 }
