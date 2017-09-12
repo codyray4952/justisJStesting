@@ -8,10 +8,15 @@ body {
 /*main nav start*/
 
 .mainNav{
-    background:#000;
     padding:0;
     margin:0;
-    width:100%;
+    width:32px;
+    height:200px;
+    position:fixed;
+    right:0;
+    border-bottom-left-radius:12px;
+    overflow:hidden;
+    transition:width .75s, background .5s;
 }
 
 .mainNav:after {
@@ -21,27 +26,30 @@ body {
     clear:both;
 }
 
-.navLogo {
-    height:100%;
-    float:left;
-    margin:9px 0 0 9px;
+.mainNav:hover{
+    background:#000;
+    width:90px;
 }
 
 .navList{
     margin:0;
+    margin-top:3px;
     padding:0;
     list-style:none;
 }
 
 .navItem {
+    text-align:right;
     float:right;
+    white-space:nowrap;
+    clear:right;
 }
 
 .navLink {
-    background:#000;
-    color:#ffffff;
+    width:90px;
+    color:#eee;
     text-decoration:none;
-    padding:15px 15px 16px 15px;
+    padding:calc(52px / 8) 1px;
     display:inline-block;
 }
 
@@ -53,69 +61,69 @@ body {
     color:#fff;
 }
 
-.navLinkCurrent {
-    background:#555;
-    color:#ffffff;
-    text-decoration:none;
-    padding:15px 15px 16px 15px;
-    display:inline-block;
+.linkLogo{
+    font-size:30px;
+    margin-right:1px;
+    color:#fafafa;
+}
+
+.big{
+    font-size:33px;
 }
 
 /*main nav end*/
 
 /*social media start*/
 
-.socialMediaContainer {
-    padding:0;
-    float:right;
-    width:6%;
-}    
+/*.socialMediaContainer {*/
+/*    padding:0;*/
+/*    float:right;*/
+/*    width:6%;*/
+/*}    */
 
-.socialMediaBox {
-    float:right;
-    position:fixed;
+/*.socialMediaBox {*/
+/*    float:right;*/
+/*    position:fixed;*/
     
-}
+/*}*/
 
-.socialMediaLink {
-    color:#9DD6FF;
-    text-decoration:none;
-    font-size:48px;
-    margin:8px 8px 0 0;
-}
+/*.socialMediaLink {*/
+/*    color:#9DD6FF;*/
+/*    text-decoration:none;*/
+/*    font-size:48px;*/
+/*    margin:8px 8px 0 0;*/
+/*}*/
 
-.push2 {
-    margin-top:48px;
-}
+/*.push2 {*/
+/*    margin-top:48px;*/
+/*}*/
 
-.push3 {
-    margin-top:calc(48px * 2);
-}
+/*.push3 {*/
+/*    margin-top:calc(48px * 2);*/
+/*}*/
 
-.push4 {
-    margin-top:calc(48px * 3);
-}
+/*.push4 {*/
+/*    margin-top:calc(48px * 3);*/
+/*}*/
 
-
-
-.socialMediaLink:hover {
-    color:#fff;
-}
+/*.socialMediaLink:hover {*/
+/*    color:#fff;*/
+/*}*/
 /*social media end*/
 
 /*hero image start*/
 
 .heroBackground {
-    height:400px;
+    height:200px;
     background:url(../images/hero.png) center center no-repeat;
-    background-size:cover;
+    background-size:cover center center;
 }
 
 .heroHeader {
     text-align:center;
     color:#fff;
     margin:0;
-    padding-top:350px;
+    padding-top:150px;
 }
 
 .textBackground {
@@ -130,8 +138,9 @@ body {
 .sectionContainer {
     width:98%;
     margin:8px auto;
-    background:#696969;
+    background:#969696;
     padding-bottom:10px;
+    border:1px solid #696969;
     border-radius:12px;
     
 }
@@ -149,24 +158,9 @@ body {
 }
 
 .sectionText {
-    padding:8px 30px;
+    padding:8px 72px;
     text-align:center;
-}
-
-.contactSocial {
-    color:#4cceff;
-    text-decoration:none;
-    font-size:72px;
-    text-align:center;
-}
-
-.contactSocial:hover {
-    color:#fff;
-}
-
-.contactSocialContainer {
-    margin-left:42%;
-    
+    line-height:2;
 }
 
 .profileColumn {
@@ -230,6 +224,7 @@ profileSocialContainer:after {
 
 .columnLink {
     text-decoration:none;
+    color:#000;
     
 }
 
@@ -243,7 +238,8 @@ profileSocialContainer:after {
     height:300px;
     margin:12px 0 12px 2.5%;
     padding:0 2.5%;
-    background:#696969;
+    background:#969696;
+    border:1px solid #696969;
     border-radius:12px;
     text-align:center;
 }
@@ -258,6 +254,72 @@ profileSocialContainer:after {
 .columnHeader {
     margin:0;
     color:#fff;
+}
+
+footer{
+    background:#969696;
+    width:100%;
+    height:150px;
+    padding:15px 0;
+    margin-top:15px;
+    border-top:1px solid #696969;
+}
+
+.footerSection{
+    width: calc(100%/3);
+    text-align:center;
+    float:left;
+    padding-top:20px;
+}
+
+.iconContainer{
+    height:150px;
+    width:150px;
+    margin:0 auto;
+}
+
+.iconContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.iconRow{
+    height:50px;
+    width:100%;
+}
+
+.iconBox{
+    height:50px;
+    width:50px;
+    text-align:center;
+    margin:0 auto;
+}
+
+.iconLink {
+    color:#000;
+    font-size:44px;
+    text-decoration:none;
+}
+
+.iconLink:hover {
+    color:#00beff;
+}
+
+.footerLogo{
+    height:50px;
+}
+
+.noPadding{
+    padding-top:0;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
 }
 
 /*
