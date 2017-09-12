@@ -157,8 +157,9 @@ body {
 }
 
 .sectionText {
-    padding:8px 30px;
+    padding:8px 72px;
     text-align:center;
+    line-height:2;
 }
 
 .profileColumn {
