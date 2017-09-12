@@ -75,40 +75,40 @@ body {
 
 /*social media start*/
 
-.socialMediaContainer {
-    padding:0;
-    float:right;
-    width:6%;
-}    
+/*.socialMediaContainer {*/
+/*    padding:0;*/
+/*    float:right;*/
+/*    width:6%;*/
+/*}    */
 
-.socialMediaBox {
-    float:right;
-    position:fixed;
+/*.socialMediaBox {*/
+/*    float:right;*/
+/*    position:fixed;*/
     
-}
+/*}*/
 
-.socialMediaLink {
-    color:#9DD6FF;
-    text-decoration:none;
-    font-size:48px;
-    margin:8px 8px 0 0;
-}
+/*.socialMediaLink {*/
+/*    color:#9DD6FF;*/
+/*    text-decoration:none;*/
+/*    font-size:48px;*/
+/*    margin:8px 8px 0 0;*/
+/*}*/
 
-.push2 {
-    margin-top:48px;
-}
+/*.push2 {*/
+/*    margin-top:48px;*/
+/*}*/
 
-.push3 {
-    margin-top:calc(48px * 2);
-}
+/*.push3 {*/
+/*    margin-top:calc(48px * 2);*/
+/*}*/
 
-.push4 {
-    margin-top:calc(48px * 3);
-}
+/*.push4 {*/
+/*    margin-top:calc(48px * 3);*/
+/*}*/
 
-.socialMediaLink:hover {
-    color:#fff;
-}
+/*.socialMediaLink:hover {*/
+/*    color:#fff;*/
+/*}*/
 /*social media end*/
 
 /*hero image start*/
@@ -159,22 +159,6 @@ body {
 .sectionText {
     padding:8px 30px;
     text-align:center;
-}
-
-.contactSocial {
-    color:#4cceff;
-    text-decoration:none;
-    font-size:72px;
-    text-align:center;
-}
-
-.contactSocial:hover {
-    color:#fff;
-}
-
-.contactSocialContainer {
-    margin-left:42%;
-    
 }
 
 .profileColumn {
@@ -266,6 +250,14 @@ profileSocialContainer:after {
 .columnHeader {
     margin:0;
     color:#fff;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
 }
 
 /*

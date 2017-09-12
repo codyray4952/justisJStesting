@@ -1,7 +1,45 @@
+.sideContainer{
+    width:20%;
+    background:#696969;
+    border-radius:12px;
+    height:400px;
+}
+
+.sideContainer.left{
+    margin-left:2.5%;
+}
+
+.sideContainer.right{
+    margin-right:2.5%;
+}
+
+.contactSocialContainer {
+    margin:0 auto;
+    width:62px;
+}
+
+.contactSocialContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.contactSocial {
+    color:#4cceff;
+    text-decoration:none;
+    font-size:72px;
+    text-align:center;
+}
+
+.contactSocial:hover {
+    color:#fff;
+}
+
+
 .formContainer {
     width:50%;
-    margin:8px auto 0;
-    padding-top:15px;
     background:#fafafa;
     border-radius:12px;
+    position: absolute;
+    left:25%;
 }
