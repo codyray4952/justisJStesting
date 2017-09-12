@@ -75,40 +75,40 @@ body {
 
 /*social media start*/
 
-.socialMediaContainer {
-    padding:0;
-    float:right;
-    width:6%;
-}    
+/*.socialMediaContainer {*/
+/*    padding:0;*/
+/*    float:right;*/
+/*    width:6%;*/
+/*}    */
 
-.socialMediaBox {
-    float:right;
-    position:fixed;
+/*.socialMediaBox {*/
+/*    float:right;*/
+/*    position:fixed;*/
     
-}
+/*}*/
 
-.socialMediaLink {
-    color:#9DD6FF;
-    text-decoration:none;
-    font-size:48px;
-    margin:8px 8px 0 0;
-}
+/*.socialMediaLink {*/
+/*    color:#9DD6FF;*/
+/*    text-decoration:none;*/
+/*    font-size:48px;*/
+/*    margin:8px 8px 0 0;*/
+/*}*/
 
-.push2 {
-    margin-top:48px;
-}
+/*.push2 {*/
+/*    margin-top:48px;*/
+/*}*/
 
-.push3 {
-    margin-top:calc(48px * 2);
-}
+/*.push3 {*/
+/*    margin-top:calc(48px * 2);*/
+/*}*/
 
-.push4 {
-    margin-top:calc(48px * 3);
-}
+/*.push4 {*/
+/*    margin-top:calc(48px * 3);*/
+/*}*/
 
-.socialMediaLink:hover {
-    color:#fff;
-}
+/*.socialMediaLink:hover {*/
+/*    color:#fff;*/
+/*}*/
 /*social media end*/
 
 /*hero image start*/
@@ -159,22 +159,6 @@ body {
 .sectionText {
     padding:8px 30px;
     text-align:center;
-}
-
-.contactSocial {
-    color:#4cceff;
-    text-decoration:none;
-    font-size:72px;
-    text-align:center;
-}
-
-.contactSocial:hover {
-    color:#fff;
-}
-
-.contactSocialContainer {
-    margin-left:42%;
-    
 }
 
 .profileColumn {
@@ -266,6 +250,72 @@ profileSocialContainer:after {
 .columnHeader {
     margin:0;
     color:#fff;
+}
+
+footer{
+    background:#969696;
+    width:100%;
+    height:150px;
+    padding:15px 0;
+    margin-top:15px;
+    border-top:1px solid #707070;
+}
+
+.footerSection{
+    width: calc(100%/3);
+    text-align:center;
+    float:left;
+    padding-top:20px;
+}
+
+.iconContainer{
+    height:150px;
+    width:150px;
+    margin:0 auto;
+}
+
+.iconContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.iconRow{
+    height:50px;
+    width:100%;
+}
+
+.iconBox{
+    height:50px;
+    width:50px;
+    text-align:center;
+    margin:0 auto;
+}
+
+.iconLink {
+    color:#000;
+    font-size:40px;
+    text-decoration:none;
+}
+
+.iconLink:hover {
+    color:#00beff;
+}
+
+.footerLogo{
+    height:50px;
+}
+
+.noPadding{
+    padding-top:0;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
 }
 
 /*
