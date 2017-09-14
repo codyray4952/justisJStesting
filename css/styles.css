@@ -1,6 +1,6 @@
 
 body {
-    background:#c0c0c0;
+    background:#bed8ea;
     margin:0;
     padding:0;
 }
@@ -213,7 +213,7 @@ profileSocialContainer:after {
 
 .columnContainer {
     width:100%;
-    padding-bottom:2px;
+    
 }
 
 .columnContainer:after {
@@ -236,7 +236,7 @@ profileSocialContainer:after {
     width:calc(25%);
     float:left;
     height:300px;
-    margin:12px 0 12px 2.5%;
+    margin:12px 0 0 2.5%;
     padding:0 2.5%;
     background:#969696;
     border:1px solid #696969;
