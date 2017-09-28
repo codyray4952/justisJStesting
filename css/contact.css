@@ -1,0 +1,49 @@
+.contactContainer{
+    margin-top:8px;
+}
+
+.contactContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.sideContainer{
+    width:20%;
+    background:#969696;
+    border-radius:12px;
+    height:400px;
+    border:1px solid #696969;
+    margin-left:2.5%;
+}
+
+.contactSocialContainer {
+    margin:0 auto;
+    width:62px;
+}
+
+.contactSocialContainer:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.contactSocial {
+    color:#4cceff;
+    text-decoration:none;
+    font-size:72px;
+    text-align:center;
+}
+
+.contactSocial:hover {
+    color:#fff;
+}
+
+
+.formContainer {
+    width:50%;
+    background:#fafafa;
+    border-radius:12px;
+    margin-left:2.5%;
+    border:1px solid #696969;
+}
