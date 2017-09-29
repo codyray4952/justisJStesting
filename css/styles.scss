@@ -1,0 +1,64 @@
+$background-color: #bed8ea;
+$boxColor: #fafafa;
+$secondaryColor:#969696;
+
+body{
+  margin:5px;
+  background:$background-color;
+}
+
+.box {
+  border:1px solid #000;
+  border-radius:12px;
+}
+
+.hero {
+  background:url("../images/hero.png") center center;
+  height:200px;
+  margin-bottom:12px;
+}
+
+.picColumn1{
+  background:url("../images/justisCamp.jpg") center center;
+}
+
+.picColumn2{
+  background: url("../images/justisLive.jpg") center center;
+}
+
+.rowMarg{
+  margin-bottom:12px;
+}
+
+.hero {
+  background:url("../images/hero.png") center center;
+  height:200px;
+  margin-bottom:12px;
+}
+
+.zigzagImg{
+  height:100%;
+}
+
+.zigzagRows{
+  height:250px;
+  background:$boxColor;
+}
+
+.boxHeaders{
+  text-align:center;
+  font-size:38px;
+}
+
+.nestRow{
+  padding:15px;
+  padding-left:15px;
+  padding-right:15px;
+  background:$boxColor;
+
+}
+
+.nestedColumn{
+  height:250px;
+  background:$secondaryColor;
+}

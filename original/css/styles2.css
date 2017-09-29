@@ -1,0 +1,368 @@
+body {
+  background:#bed8ea;
+  margin:0;
+  padding:0;
+}
+
+/*main nav start*/
+
+.mainNav{
+  padding:0;
+  margin:0;
+  width:32px;
+  height:200px;
+  position:fixed;
+  right:0;
+  border-bottom-left-radius:12px;
+  overflow:hidden;
+  transition:width .75s, background .5s;
+}
+
+.mainNav:after {
+  content:"";
+  display:block;
+  height:0;
+  clear:both;
+}
+
+.mainNav:hover{
+  background:#000;
+  width:90px;
+}
+
+.navList{
+  margin:0;
+  margin-top:3px;
+  padding:0;
+  list-style:none;
+}
+
+.navItem {
+  text-align:right;
+  float:right;
+  white-space:nowrap;
+  clear:right;
+}
+
+.navLink {
+  width:90px;
+  color:#eee;
+  text-decoration:none;
+  padding:calc(52px / 8) 1px;
+  display:inline-block;
+}
+
+.navLink:hover {
+  background:#778899;
+}
+
+.navlink:visited {
+  color:#fff;
+}
+
+.linkLogo{
+  font-size:30px;
+  margin-right:1px;
+  color:#fafafa;
+}
+
+.big{
+  font-size:33px;
+}
+
+/*main nav end*/
+
+.cogContainer{
+  position:fixed;
+  left:0;
+  width:36px;
+  padding:5px;
+  transition:background 0.5s;
+  border-bottom-right-radius:12px;
+  z-index:998;
+}
+
+.cogContainer:hover{
+  background:#000;
+}
+
+.cogLogo{
+  text-align:center;
+  color:#fafafa;
+  font-size:30px;
+  z-index:999;
+}
+
+.settingsContainer{
+  display:none;
+  position:fixed;
+  text-align:center;
+  top:0;
+  left:0;
+  width:100px;
+  height:50px;
+  background:grey;
+  padding-top:36px;
+  z-index:997;
+  border-bottom-right-radius:12px;
+}
+
+/*social media start*/
+
+/*.socialMediaContainer {*/
+/*    padding:0;*/
+/*    float:right;*/
+/*    width:6%;*/
+/*}    */
+
+/*.socialMediaBox {*/
+/*    float:right;*/
+/*    position:fixed;*/
+
+/*}*/
+
+/*.socialMediaLink {*/
+/*    color:#9DD6FF;*/
+/*    text-decoration:none;*/
+/*    font-size:48px;*/
+/*    margin:8px 8px 0 0;*/
+/*}*/
+
+/*.push2 {*/
+/*    margin-top:48px;*/
+/*}*/
+
+/*.push3 {*/
+/*    margin-top:calc(48px * 2);*/
+/*}*/
+
+/*.push4 {*/
+/*    margin-top:calc(48px * 3);*/
+/*}*/
+
+/*.socialMediaLink:hover {*/
+/*    color:#fff;*/
+/*}*/
+/*social media end*/
+
+/*hero image start*/
+
+.heroBackground {
+  height:200px;
+  background:url(../images/hero.png) center center no-repeat;
+  background-size:cover center center;
+}
+
+.heroHeader {
+  text-align:center;
+  color:#fff;
+  margin:0;
+  padding-top:150px;
+  font-size:42px;
+}
+
+.textBackground {
+  background:rgba(0, 0, 0, .5);
+  padding:5px;
+}
+
+/* hero end*/
+
+/* profiles start */
+
+.sectionContainer {
+  width:98%;
+  margin:8px auto;
+  background:#969696;
+  padding-bottom:10px;
+  border:1px solid #696969;
+  border-radius:12px;
+
+}
+
+.sectionContainer:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.sectionHeader {
+  text-align:center;
+  margin:0 auto;
+  padding:8px 0;
+}
+
+.sectionText {
+  padding:8px 72px;
+  text-align:center;
+  line-height:2;
+}
+
+.profileColumn {
+  width:20%;
+  float:left;
+  margin:15px 0 0 4%;
+  background:#fff;
+  text-align:center;
+  padding:0;
+}
+
+.profileImage {
+  width:100%;
+  height:200px;
+}
+
+.sectionImage {
+  width:70%;
+  margin:0 15%;
+  height:300px;
+}
+
+.columnContainer {
+  width:100%;
+
+}
+
+.columnContainer:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.columnLink {
+  text-decoration:none;
+  color:#000;
+
+}
+
+.columnLink:hover {
+  opacity:0.75;
+}
+
+.column {
+  width:calc(25%);
+  float:left;
+  height:300px;
+  margin:12px 0 0 2.5%;
+  padding:0 2.5%;
+  background:#969696;
+  border:1px solid #696969;
+  border-radius:12px;
+  text-align:center;
+}
+
+.columnImage {
+  margin:0;
+  width:100%;
+  height:150px;
+
+}
+
+.columnHeader {
+  margin:0;
+  color:#fff;
+  font-size:32px;
+}
+
+.columnText {
+  line-height:2;
+}
+
+footer{
+  background:#969696;
+  width:100%;
+  height:150px;
+  padding:15px 0;
+  margin-top:15px;
+  border-top:1px solid #696969;
+}
+
+.footerSection{
+  width: calc(100%/3);
+  text-align:center;
+  float:left;
+  padding-top:20px;
+}
+
+.iconContainer{
+  height:150px;
+  width:150px;
+  margin:0 auto;
+}
+
+.iconContainer:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.iconRow{
+  height:50px;
+  width:100%;
+}
+
+.iconBox{
+  height:50px;
+  width:50px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.iconLink {
+  color:#000;
+  font-size:44px;
+  text-decoration:none;
+}
+
+.iconLink:hover {
+  color:#00beff;
+}
+
+.footerLogo{
+  height:50px;
+}
+
+.noPadding{
+  padding-top:0;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+/*
+~~//  Color Scheme 1  \\~~
+
+Lightest
+/\
+\/
+Darkest
+
+#4cceff
+#00b9ff
+#0094cc
+#26677f
+#005d7f
+
+*/
+
+/*
+
+~~//  Color Scheme 2 \\~~
+
+Lightest
+/\
+\/
+Darkest
+
+#9DD6FF
+#51B5FF
+#4191CC
+#4F6B7F
+#285B7F
+
+*/

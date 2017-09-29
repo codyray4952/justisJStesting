@@ -29,6 +29,7 @@
 }
 
 .doubleHeader{
+  font-size:32px;
 }
 
 .doubleText{
@@ -38,7 +39,7 @@
 .audioBox{
     background:#fafafa;
     width:70%;
-    margin:0 auto;
+    margin:0 auto 12px auto;
 }
 
 .audioBox:after{
@@ -49,8 +50,9 @@
 
 .audioHeader{
     text-align:center;
+    font-size:30px;
 }
 
 .videoContainer{
-    
+
 }

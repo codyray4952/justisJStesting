@@ -1,0 +1,31 @@
+.sectionHeader{
+  font-size:32px;
+}
+
+.profileHeader {
+
+}
+
+.profileText {
+
+}
+
+.profileSocialContainer {
+
+}
+
+.profileSocialContainer:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.profileSocialLink {
+  color:#4cceff;
+  text-decoration:none;
+  font-size:28px;
+}
+
+.profileSocialLink:hover {
+  color:#005d7f;
+}
